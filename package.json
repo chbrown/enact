@@ -8,11 +8,16 @@
     "vtree"
   ],
   "homepage": "https://github.com/chbrown/enact",
-  "repository": "git://github.com/chbrown/enact.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chbrown/enact.git"
+  },
   "bugs": "https://github.com/chbrown/enact/issues",
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
   "dependencies": {
+    "declarations": "*",
+    "typescript": "next",
     "virtual-dom": "*"
   }
 }
